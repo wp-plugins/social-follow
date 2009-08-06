@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR SocialFollow.com
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/social-follow\n"
+"POT-Creation-Date: 2009-08-06 06:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: social-follow.php:72
+msgid "Please update your "
+msgstr ""
+
+#: social-follow.php:73
+msgid "Social Follow settings"
+msgstr ""
+
+#: social-follow.php:82 social-follow.php:95
+msgid "Social Follow Settings"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Plugin Name of an extension
+#: social-follow.php:83 social-follow.php:173 social-follow.php:177
+msgid "Social Follow"
+msgstr ""
+
+#: social-follow.php:100
+msgid "Button Code"
+msgstr ""
+
+#: social-follow.php:102
+msgid "Verify Button Code"
+msgstr ""
+
+#: social-follow.php:105
+msgid "Checking button code..."
+msgstr ""
+
+#: social-follow.php:106
+msgid "<span class=\"green nomargin bold\">Success!</span>"
+msgstr ""
+
+#: social-follow.php:107
+msgid "<span class=\"red nomargin bold\">Failed</span>"
+msgstr ""
+
+#: social-follow.php:111
+msgid "Update Social Follow Settings"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Plugin URI of an extension
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Author URI of an extension
+msgid "http://www.socialfollow.com/"
+msgstr ""
+
+#. Description of an extension
+msgid "An easy way to implement your Social Follow button into your sidebar."
+msgstr ""
+
+#. Author of an extension
+msgid "SocialFollow.com"
+msgstr ""
