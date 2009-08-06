@@ -3,7 +3,7 @@
 Plugin Name: Social Follow
 Plugin URI: http://www.socialfollow.com/
 Description: An easy way to implement your Social Follow button into your sidebar.
-Version: 1.0
+Version: 1.0.1
 Author: SocialFollow.com
 Author URI: http://www.socialfollow.com/
 Text Domain: social-follow
