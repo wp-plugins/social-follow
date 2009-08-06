@@ -1,0 +1,52 @@
+#sf_settings .options {
+	overflow: hidden;
+	border: none;
+}
+#sf_settings .option {
+	overflow: hidden;
+	border-bottom: dashed 1px #ccc;
+	padding-bottom: 9px;
+	padding-top: 9px;
+}
+#sf_settings .option label {
+	display: block;
+	float: left;
+	width: 200px;
+	margin-right: 24px;
+	text-align: right;
+}
+#sf_settings .option span {
+	display: block;
+	float: left;
+	margin-left: 230px;
+	margin-top: 6px;
+	clear: left;
+}
+#sf_settings select,
+#sf_settings input {
+	float: left;
+	display: block;
+	margin-right: 6px;
+}
+#sf_settings p.submit {
+	overflow: hidden;
+}
+#sf_settings .option span {
+	color: #666;
+	display: block;
+}
+#sf_settings #sa_saad_login_test_result {
+	display: inline;
+	padding: 3px;
+	background: #CFEBF7;
+	color: #000;
+}
+#sf_settings fieldset.options .option span.sf_button_code_check_result_wait {
+	background: #ffc;
+}
+
+#sf_settings span.green { color: #009900; }
+#sf_settings span.red { color: #CC0000; }
+#sf_settings span.nomargin { margin: 0; }
+#sf_settings span.bold { font-weight:bold; }
+#sf_settings span.intText { display: none; }
