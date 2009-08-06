@@ -162,13 +162,19 @@ function sf_install() {
 }
 register_activation_hook( SF_FILE, 'sf_install' );
 
-function sf_sidebar( $args ) {
-    global $sf;
-	extract( $args );
-	echo $before_widget;
-    print( $before_title . __('Social Follow', 'social-follow') . $after_title ); 
-	echo $sf->button_code;
-    echo $after_widget;
+function sf_widget_init() {
+	if (!function_exists('register_sidebar_widget')) {
+		return;
+	}
+	function sf_widget( $args ) {
+		global $sf;
+		extract( $args );
+		echo $before_widget;
+		print( $before_title . __('Social Follow', 'social-follow') . $after_title ); 
+		echo $sf->button_code;
+		echo $after_widget;
+	}
+	register_sidebar_widget( array(__('Social Follow', 'social-follow'), 'widgets'), 'sf_widget' );
 }
-register_sidebar_widget( __('Social Follow', 'social-follow'), 'sf_sidebar' );
+add_action('widgets_init', 'sf_widget_init');
 ?>
