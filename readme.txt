@@ -49,5 +49,8 @@ to fix this problem, so check back soon!
 
 == Changelog ==
 
+= 1.0.1 = 
+* Fixed error for older WordPress versions.
+
 = 1.0 =
 * First version, stable release.
