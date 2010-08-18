@@ -3,8 +3,8 @@ Contributors: SocialFollow
 Plugin website: http://www.socialfollow.com/
 Tags: social follow, follow me, follow us, social, widget
 Requires at least: 2.7
-Tested up to: 2.9
-Stable tag: 1.0.2
+Tested up to: 3.0.1
+Stable tag: 1.0.3
 
 This plugin provides an easy way to implement your Social Follow button into the sidebar of your website.
 
@@ -47,6 +47,9 @@ to fix this problem, so check back soon!
 
 
 == Changelog ==
+
+= 1.0.3 =
+* Updated version compatibility to 3.0.1
 
 = 1.0.2 =
 * Updated version compatibility to 2.9
